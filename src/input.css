@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-outfit bg-Verydarkblue tracking-wide flex flex-col min-h-screen justify-center items-center;
+  }
+}
