@@ -643,6 +643,10 @@ body{
   isolation: auto;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .float-right{
   float: right;
 }
@@ -2047,8 +2051,12 @@ body{
   -moz-osx-font-smoothing: auto;
 }
 
-.opacity-50{
-  opacity: 0.5;
+.opacity-0{
+  opacity: 0;
+}
+
+.opacity-100{
+  opacity: 1;
 }
 
 .bg-blend-normal{
@@ -2326,6 +2334,14 @@ body{
   a-z-a--z-: #;
 }
 
+.hover\:absolute:hover{
+  position: absolute;
+}
+
+.hover\:top-0:hover{
+  top: 0px;
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -2333,6 +2349,18 @@ body{
 .hover\:text-Cyan:hover{
   --tw-text-opacity: 1;
   color: hsl(178 100% 50% / var(--tw-text-opacity));
+}
+
+.hover\:opacity-50:hover{
+  opacity: 0.5;
+}
+
+.hover\:opacity-100:hover{
+  opacity: 1;
+}
+
+.hover\:opacity-90:hover{
+  opacity: 0.9;
 }
 
 .before\:hover\:text-center:hover::before{
